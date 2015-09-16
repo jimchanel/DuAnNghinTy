@@ -27,9 +27,9 @@
 		</div>
 	</div>
 </section>
-<footer class="footer bg-white b-t b-light">
+<!-- <footer class="footer bg-white b-t b-light">
 		<small> Bản quyền thuộc về công ty cổ phần công nghệ phần mềm
 			và nội dung số <a href="http://osp.com.vn/" target="blank">OSP</a>&copy;
 			2015
 		</small>
-</footer>
+</footer> -->
