@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+	<definition name="default" template="/WEB-INF/views/layout.default.jsp">
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+		<put-attribute name="leftpanel" value="/WEB-INF/views/leftpanel.jsp" />
+		<put-attribute name="page" value="" />
+	</definition>
+	<definition name="homepage" extends="default">
+		<put-attribute name="page" value="/WEB-INF/views/home.jsp" />
+	</definition>
+	<definition name="profile" extends="default">
+		<put-attribute name="page" value="/WEB-INF/views/profile.jsp" />
+	</definition>
+	<definition name="404" extends="default">
+		<put-attribute name="page" value="/WEB-INF/404.jsp" />
+	</definition>
+	<definition name="403" extends="default">
+		<put-attribute name="page" value="/WEB-INF/403.jsp" />
+	</definition>
+	<!-- Quản lý người dùng -->
+	<definition name="viewUser" extends="default">
+		<put-attribute name="page" value="/WEB-INF/views/user/index.jsp" />
+	</definition>
+	<definition name="addUser" extends="default">
+		<put-attribute name="page" value="/WEB-INF/views/user/add.jsp" />
+	</definition>
+	<definition name="updateUser" extends="default">
+		<put-attribute name="page" value="/WEB-INF/views/user/update.jsp" />
+	</definition>
+	<definition name="roleUser" extends="default">
+		<put-attribute name="page" value="/WEB-INF/views/user/role.jsp" />
+	</definition>
+</tiles-definitions>

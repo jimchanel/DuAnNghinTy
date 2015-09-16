@@ -1,0 +1,81 @@
+.panel .table-striped>tbody>tr:nth-child(odd)>td, .panel .table-striped>tbody.cust-list>tr:nth-child(odd)>td
+	{
+	background-color: #f9f9f9 !important;
+}
+.panel .table-striped>tbody.cust-list>tr>td.center-text {
+	text-align: center;
+	vertical-align: middle;
+}
+.panel .table-striped>tbody.cust-list>tr>th.center-text {
+	text-align: center;
+	vertical-align: middle;
+}
+.specifictimehide {
+	display: none !important;
+}
+
+.specifictimeshow {
+	display: inline-block !important;
+}
+.bg-info{
+	color: white;
+}
+.property-advanced, .property-car{
+	display:none;
+}
+.link-blue {
+	color: #428BFF;
+	font-weight: 600;
+}
+
+.file-attack {
+	padding-left: 100px;
+}
+
+.file-attack .file {
+	border: 1px solid #eeeeee;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	cursor: pointer;
+	width: 80px;
+	height: 80px;
+}
+.file-attack .file:hover{
+	background-color:#eeeeee;
+}
+.file-attack .file .file-name {
+	width: 80px;
+	word-wrap:break-word;
+}
+.file-attack .file img{
+	float:right;
+	margin:2px 2px 65px 70px;
+}
+.clear {
+	clear: both;;
+}
+.file-attack .file .reject{
+	height: 80px;
+	line-height: 70px;
+}
+.text-orange{
+	color:#F9770B;
+}
+.text-red{
+	color:red;
+	display: block !important;
+}
+.doc-url{
+	padding-top:5px;
+	color:#428BFF;
+}
+.doc-url a{
+	color:#428BFF;
+}
+.doc-url a:hover{
+	text-decoration: underline;
+}
+.doc-url img{
+	margin-top:-5px;
+}
