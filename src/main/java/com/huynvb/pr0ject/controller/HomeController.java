@@ -51,4 +51,21 @@ public class HomeController {
 				.getAuthentication();
 		return "homepage";
 	}
+	
+	@RequestMapping(value = "/404.html", method = RequestMethod.GET)
+	public String notfound(Locale locale, ModelMap model, HttpServletRequest request)
+			throws IOException {
+		Authentication auth = SecurityContextHolder.getContext()
+				.getAuthentication();
+		System.out.println("page not found");
+		return "404";
+	}
+	
+	@RequestMapping(value = "/403.html", method = RequestMethod.GET)
+	public String accessdenine(Locale locale, ModelMap model, HttpServletRequest request)
+			throws IOException {
+		Authentication auth = SecurityContextHolder.getContext()
+				.getAuthentication();
+		return "403";
+	}
 }

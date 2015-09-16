@@ -12,7 +12,7 @@
 			<div class="text-center m-b-lg">
 				<h1 class="h text-white animated fadeInDownBig">404</h1>
 			</div>
-			<div class="list-group m-b-sm bg-white m-b-lg">
+			<!-- <div class="list-group m-b-sm bg-white m-b-lg">
 				<a href="/uchi/home.action" class="list-group-item"> <i
 					class="fa fa-chevron-right icon-muted"></i> <i
 					class="fa fa-fw fa-home icon-muted"></i> Quay lại trang chủ
@@ -23,7 +23,7 @@
 					<i class="fa fa-chevron-right icon-muted"></i> <i
 					class="fa fa-fw fa-phone icon-muted"></i> Liên hệ
 				</a>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
